@@ -15,7 +15,7 @@ app.use(cookieParser())
 
 // MongoDB
 mongoose
-	.connect('mongodb+srv://VanillaMix9:hashtagWJSN1@attendance-expressjs-vbg6c.mongodb.net/attendance?retryWrites=true&w=majority', {
+	.connect('mongodb+srv://<username>:<password>@attendance-expressjs-vbg6c.mongodb.net/<database>?retryWrites=true&w=majority', {
 		useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
